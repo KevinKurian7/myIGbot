@@ -1,6 +1,6 @@
 # myIGbot
 
-🟢This isa bot i made using python to automate instagram accounts.<BR>
+🟢This is a bot i made using python to automate instagram accounts.<BR>
 🟡This bot makes use of the selenium library.<br>
 🔴the bot can login to your IG account and search for posts based on the the tags you have provided and 
   give them likes and comments<br>

@@ -1,0 +1,349 @@
+1621236676281	geckodriver	INFO	Listening on 127.0.0.1:50992
+1621236679360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofile5vUrLC"
+1621236682944	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile5vUrLC\\search.json.mozlz4", (void 0)))
+1621236696475	Marionette	INFO	Listening on port 51000
+1621236696663	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10152, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1621236731140	Marionette	INFO	Stopped listening on port 51000
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621236731821	geckodriver	INFO	Listening on 127.0.0.1:51096
+1621236734878	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofilesElyUN"
+1621236736258	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofilesElyUN\\search.json.mozlz4", (void 0)))
+1621236742913	Marionette	INFO	Listening on port 51106
+1621236744192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621237112799	Marionette	INFO	Stopped listening on port 51106
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Temp\\rust_mozprofileEzFtsK"
+1621237106716	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileEzFtsK\\search.json.mozlz4", (void 0)))
+1621237113892	Marionette	INFO	Listening on port 51377
+1621237114153	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error sending event: overflow-change"
+console.error: ({})
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 266"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:266:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:334:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:227:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:802:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:383:33
+form@resource://devtools/server/actors/inspector/node.js:207:7
+write@resource://devtools/shared/protocol/types.js:358:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:594:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.error: "Error sending event: display-change"
+console.error: ({})
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 266"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:266:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:334:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:227:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:802:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:383:33
+form@resource://devtools/server/actors/inspector/node.js:207:7
+write@resource://devtools/shared/protocol/types.js:358:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:598:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.error: "Error sending event: scrollable-change"
+console.error: ({})
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 266"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:266:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:334:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:227:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:802:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:383:33
+form@resource://devtools/server/actors/inspector/node.js:207:7
+write@resource://devtools/shared/protocol/types.js:358:32
+types.addArrayType/write/<@resource://devtools/shared/protocol/types.js:215:33
+write@resource://devtools/shared/protocol/types.js:215:16
+write@resource://devtools/shared/protocol/Request.js:109:22
+write@resource://devtools/shared/protocol/Request.js:39:26
+_sendEvent@resource://devtools/shared/protocol/Actor.js:66:24
+initialize/<@resource://devtools/shared/protocol/Actor.js:46:16
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:602:12
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:314:12
+notify@resource://gre/modules/Timer.jsm:62:17
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "can't access property \"getPropertyValue\", style is null"
+console.error: (new TypeError("can't access property \"getPropertyValue\", style is null", "resource://devtools/server/actors/page-style.js", 1038))
+console.error: (new Error("Protocol error (TypeError): can't access property \"getPropertyValue\", style is null from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:1038:7)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: resource://devtools/server/actors/page-style.js, line 603: TypeError: can't access dead object
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1043"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1043:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:620:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1043, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: can't access property "last" of undefined
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1142:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1367:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1090:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:623:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1142, column: 1
+console.error: (new TypeError("can't access property \"last\" of undefined", "resource://devtools/server/actors/network-monitor/network-observer.js", 1142))
+console.error: "Error while calling actor 'pagestyle's method 'isPositionEditable'" "can't access dead object"
+console.error: (new TypeError("can't access dead object", "resource://devtools/server/actors/page-style.js", 603))
+console.error: (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.child4/pagestyle24 (resource://devtools/server/actors/page-style.js:603:9)", "resource://devtools/shared/protocol/Front.js", 365))
+Handler function threw an exception: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannelInternal.remoteAddress]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/server/actors/network-monitor/network-observer.js :: _onResponseHeader :: line 1043"  data: no]
+Stack: _onResponseHeader@resource://devtools/server/actors/network-monitor/network-observer.js:1043:5
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:620:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1043, column: 0
+console.error: ({})
+Handler function threw an exception: TypeError: can't access property "last" of undefined
+Stack: _getWaitTiming@resource://devtools/server/actors/network-monitor/network-observer.js:1142:1
+_setupHarTimings@resource://devtools/server/actors/network-monitor/network-observer.js:1367:28
+_onTransactionClose@resource://devtools/server/actors/network-monitor/network-observer.js:1090:27
+_dispatchActivity@resource://devtools/server/actors/network-monitor/network-observer.js:623:14
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:729:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 1142, column: 1
+console.error: (new TypeError("can't access property \"last\" of undefined", "resource://devtools/server/actors/network-monitor/network-observer.js", 1142))
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/24fc280a4322.js, line 43: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/c6bc6bf61c83.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/24fc280a4322.js, line 43: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/c6bc6bf61c83.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1621237414378	Marionette	INFO	Stopped listening on port 51377
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621237452320	geckodriver	INFO	Listening on 127.0.0.1:51640
+1621237455381	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofile64rOUj"
+1621237456434	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile64rOUj\\search.json.mozlz4", (void 0)))
+1621237463554	Marionette	INFO	Listening on port 51648
+1621237464926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/client/framework/toolbox.js, line 1947: TypeError: can't access property "togglePicker", currentPanel is undefined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1621237542797	Marionette	INFO	Stopped listening on port 51648
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621237554570	geckodriver	INFO	Listening on 127.0.0.1:51771
+1621237557853	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileb49Oze"
+1621237559655	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileb49Oze\\search.json.mozlz4", (void 0)))
+1621237565321	Marionette	INFO	Listening on port 51781
+1621237565428	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621237835060	Marionette	INFO	Stopped listening on port 51781
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1621239595668	geckodriver	INFO	Listening on 127.0.0.1:53458
+1621239598736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileOPnGBE"
+1621240047258	geckodriver	INFO	Listening on 127.0.0.1:53825
+1621240050332	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileEF7AT8"
+1621240051401	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileEF7AT8\\search.json.mozlz4", (void 0)))
+1621240060332	Marionette	INFO	Listening on port 53833
+1621240062248	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621240337227	Marionette	INFO	Stopped listening on port 53833
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileYX0VQL"
+1621240330851	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileYX0VQL\\search.json.mozlz4", (void 0)))
+1621240340349	Marionette	INFO	Listening on port 54075
+1621240340677	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1621240409520	Marionette	INFO	Stopped listening on port 54071621240410096	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofilezFhvuh"
+1621240411623	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofilezFhvuh\\search.json.mozlz4", (void 0)))
+1621240417722	Marionette	INFO	Listening on port 54204
+1621240419336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621240510421	Marionette	INFO	Stopped listening on port 54204
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileYdKPGz"
+1621240510041	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileYdKPGz\\search.json.mozlz4", (void 0)))
+[Parent 12076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1621240519411	Marionette	INFO	Listening on port 54327
+1621240519478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621241158762	Marionette	INFO	Stopped listening on port 54327
+1240702713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofile1MvvPf"
+1621240703665	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile1MvvPf\\search.json.mozlz4", (void 0)))
+1621240709579	Marionette	INFO	Listening on port 54512
+1621240709775	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621241159036	Marionette	INFO	Stopped listening on port 54512
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileZYpYpj"
+1621241154447	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileZYpYpj\\search.json.mozlz4", (void 0)))
+1621241160516	Marionette	INFO	Listening on port 54841
+1621241161746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: , line 0: TypeError: Error in body stream
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/e7427dcfb98f.js, line 218: NS_ERROR_NOT_INITIALIZED: 
+1621241544431	Marionette	INFO	Stopped listening on port 54841
+1621241580397	geckodriver	INFO	Listening on 127.0.0.1:55195
+1621241583456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofilePJwbab"
+1621241585976	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofilePJwbab\\search.json.mozlz4", (void 0)))
+1621241590602	Marionette	INFO	Listening on port 55225
+1621241590978	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be1621241864171	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile5Lv29D\\search.json.mozlz4", (void 0)))
+1621241872348	Marionette	INFO	Listening on port 55438
+1621241872574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621241999803	Marionette	INFO	Stopped listening on port 55431621242001988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileXWfik5"
+1621242003298	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileXWfik5\\search.json.mozlz4", (void 0)))
+1621242009794	Marionette	INFO	Listening on port 55581
+1621242010065	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621242213144	Marionette	INFO	Stopped listening on port 55581
+1242209027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileUQefP6"
+1621242209409	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileUQefP6\\search.json.mozlz4", (void 0)))
+1621242216572	Marionette	INFO	Listening on port 55793
+1621242217051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621242327236	Marionette	INFO	Stopped listening on port 55793
+1242326249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofilewlduVA"
+1621242328988	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofilewlduVA\\search.json.mozlz4", (void 0)))
+1621242336401	Marionette	INFO	Listening on port 55925
+1621242336543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621242625129	Marionette	INFO	Stopped listening on port 55925
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileIWY4Ee"
+1621242503884	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileIWY4Ee\\search.json.mozlz4", (void 0)))
+1621242508411	Marionette	INFO	Listening on port 56100
+1621242508471	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621242625162	Marionette	INFO	Stopped listening on port 56100
+1242624694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileR4WPYK"
+1621242625639	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileR4WPYK\\search.json.mozlz4", (void 0)))
+1621242632397	Marionette	INFO	Listening on port 56234
+1621242632759	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621243345640	Marionette	INFO	Stopped listening on port 56234
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofile38keNk"
+1621243170493	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile38keNk\\search.json.mozlz4", (void 0)))
+1621243174192	Marionette	INFO	Listening on port 56578
+1621243174255	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621243346623	Marionette	INFO	Stopped listening on port 56578
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofilek6fEj9"
+1621243346406	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofilek6fEj9\\search.json.mozlz4", (void 0)))
+1621243349298	Marionette	INFO	Listening on port 56765
+1621243349570	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1621243636118	Marionette	INFO	Stopped listening on port 56765
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofile3ENu8f"
+1621243511822	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile3ENu8f\\search.json.mozlz4", (void 0)))
+1621243515357	Marionette	INFO	Listening on port 56926
+1621243515617	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621243638503	Marionette	INFO	Stopped listening on port 56926
+1243635972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofile337l5J"
+1621243636404	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofile337l5J\\search.json.mozlz4", (void 0)))
+1621243639608	Marionette	INFO	Listening on port 57064
+1621243639680	Marionette	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:57204
+1621243786765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\KEVINK~1\\AppData\\Local\\Temp\\rust_mozprofileXGnhNA"
+1621243788002	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Kevin Kurian T\\AppData\\Local\\Temp\\rust_mozprofileXGnhNA\\search.json.mozlz4", (void 0)))
+1621243793006	Marionette	INFO	Listening on port 57215
+1621243793605	Marionette	WARN	TLS certificate errors will be ignored for this session
+1621243883811	Marionette	INFO	Stopped listening on port 57215
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
